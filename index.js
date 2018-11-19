@@ -83,7 +83,7 @@ sdk.service(function(err, flex) {
       }
     });
   }
-  flexFunctions.register("myfeed", getMyFeed);
+  flexFunctions.register("myfeedYeah", getMyFeed);
   flexFunctions.register("afterHospitalFetch", afterHospitalFetch);
   flexFunctions.register("beforePostReading", beforePostReading);
 });
