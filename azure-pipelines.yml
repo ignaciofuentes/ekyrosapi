@@ -18,3 +18,5 @@ steps:
       command: install
 
   - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: "$(System.DefaultWorkingDirectory)"
