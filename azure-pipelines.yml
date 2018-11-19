@@ -20,4 +20,4 @@ steps:
   - task: CopyFiles@2
     inputs:
       contents: "**"
-      targetFolder: "/dist"
+      targetFolder: "dist"
