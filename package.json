@@ -1,10 +1,11 @@
 {
   "name": "ekyrosapi",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "kinvey flex deploy"
   },
   "author": "",
   "license": "ISC",
